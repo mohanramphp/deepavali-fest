@@ -1,0 +1,67 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+ul, li {
+	text-indent: 0;
+	text-decoration: none;
+	margin: 0;
+	padding: 0
+}
+img {
+	border: 0
+}
+body {
+	background-color: #000;
+	color: #999;
+	font: 100%/18px helvetica, arial, sans-serif
+}
+canvas {
+	cursor: crosshair;
+	display: block;
+	left: 0;
+	position: absolute;
+	top: 0;
+	z-index: 20
+}
+#header img {
+	width: auto;
+	height: auto
+}
+#bg img {
+	width: auto;
+	height: auto
+}
+#header, #bg {
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 10
+}
+#header {
+	top: 0
+}
+#bg {
+	position: fixed;
+	z-index: 1;
+	bottom: 0
+}
+#bg {
+	text-align: center
+}
+audio {
+	position: fixed;
+	display: none;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 5
+}
+.greetings {
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 140px;
+	font-weight: bold
+}
